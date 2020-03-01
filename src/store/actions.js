@@ -1,7 +1,7 @@
 import axios from 'axios'
 export default {
 	getData: ({commit}) => {
-		axios.get('http://120.26.57.9:8080/vue-music/json/api.json')
+		axios.get('static/api.json')
 		.then(
 			function(res){
 				//state.musics=res.data;
